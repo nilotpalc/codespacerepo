@@ -1,0 +1,32 @@
+{
+  "name": "Python Development with pyenv",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  // Features to install
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest",
+      "installTools": true
+    }
+  },
+  
+  // Post-create command to install pyenv
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  
+  // VS Code extensions to install
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.pylint",
+        "ms-python.black-formatter"
+      ]
+    }
+  },
+  
+  // Forward commonly used ports
+  "forwardPorts": [3000, 8000, 8080],
+  
+  // Use 'postAttachCommand' to run commands after the container is running.
+  "postAttachCommand": "echo 'Container is ready!'"
+}
