@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codespacerepo.iml" filepath="$PROJECT_DIR$/.idea/codespacerepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newsclassification/.idea/newsclassification.iml" filepath="$PROJECT_DIR$/newsclassification/.idea/newsclassification.iml" />
+    </modules>
+  </component>
+</project>
