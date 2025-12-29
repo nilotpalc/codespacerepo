@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/codespacerepo.iml" filepath="$PROJECT_DIR$/.idea/codespacerepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/generalworks.iml" filepath="$PROJECT_DIR$/.idea/generalworks.iml" />
     </modules>
   </component>
 </project>
